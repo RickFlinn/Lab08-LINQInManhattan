@@ -8,6 +8,7 @@ namespace LINQ_In_Manhattan.Classes
 {
     public class FeatureCollection<Feature> : IEnumerable
     {
+        public string type { get; set; }
         public Feature[] Features { get; set; }
         
         public IEnumerator GetEnumerator()
